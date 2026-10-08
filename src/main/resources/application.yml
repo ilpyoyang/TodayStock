@@ -2,8 +2,8 @@ spring:
   application:
     name: todaystock
   datasource:
-    url: ${DB_URL}
-    username: ${DB_USERNAME}
+    url: jdbc:postgresql://localhost:5432/todaystock
+    username: postgres
     password: ${DB_PASSWORD}
     hikari:
       maximum-pool-size: 25
